@@ -33,9 +33,9 @@ a {
     transition: 0.3s;
 }
 #menu a:hover{
-    
+    background: #6dd4e4;
     color:  #B12A35;
-    transform: scale(1.05);
+    transform: scale(1.0);
 
 }
 
