@@ -3,13 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #f5f7f7;
 }
-.bg-info7{background:#B12A35;}
+
+.bg-info7 {
+    background: #B12A35;
+}
 
 
 /*Header Section Start*/
+
 #header {
     background-color: rgb(9, 161, 192);
     padding: 20px;
@@ -20,21 +25,24 @@ a {
     color: white;
     font-size: x-large;
 }
-#headerhover a:hover{
+
+#headerhover a:hover {
     color: #B12A35;
 }
 
 /*Header Section End*/
 
+
 /*Menu Section Start*/
+
 #menu a {
     font-size: x-large;
-    color:  rgb(9, 161, 192);
+    color: rgb(9, 161, 192);
     transition: 0.3s;
 }
-#menu a:hover{
-    background: #6dd4e4;
-    color:  #B12A35;
+
+#menu a:hover {
+    color: #B12A35;
     transform: scale(1.0);
 
 }
@@ -47,7 +55,8 @@ a {
     border: 1px solid rgb(9, 161, 192);
     color: rgb(9, 161, 192);
 }
-#logo{
+
+#logo {
     width: 190px;
     height: 90px;
     margin-left: 10px;
@@ -55,14 +64,18 @@ a {
 
 /*Menu Section End*/
 
+
 /*Slider Section Start*/
 
-#slider img:hover{
+#slider img:hover {
     transform: none;
 }
+
 /*Slider Section Start*/
 
+
 /*Body Section Start*/
+
 #content {
     background-color: rgb(17, 17, 17);
     color: rgb(9, 161, 192);
@@ -75,6 +88,7 @@ a {
 /*Body Section End*/
 
 /*Blog Section Start*/
+
 #blog {
     background-color: rgb(9, 161, 192);
 }
@@ -82,14 +96,16 @@ a {
 #bloglink {
     display: inline-block;
 }
-#myblog a:hover{
-    color:  #B12A35;
+
+#myblog a:hover {
+    color: #B12A35;
     transform: scale(1.05);
 }
 
 /*Blog Section End*/
 
 /*About Section Start*/
+
 #about {
 
     color: rgb(9, 161, 192);
@@ -97,64 +113,56 @@ a {
 
 /*About Section End*/
 
-/*marquee start*/
+
+/*Marquee Section start*/
+
 #marquee {
     color: rgb(9, 138, 181);
 }
 
-/*marquee end*/
+/*marquee Section end*/
 
-/* button start*/
+
+/* Button Section start*/
+
 #button {
     background-color: rgb(9, 138, 181);
 }
 
-/* button end*/
+/* Button Section end*/
 
-/*footer start*/
-.footer {
-    margin-right: 5px;
-    padding-right: 5px;
-}
 
-.sociallink {
-    color: rgb(9, 138, 181);
-}
 
-.footerlink {
-    color: rgb(9, 138, 181);
-}
-#footer2 a:hover{
-    color:  #6dd4e4;
-    transform: scale(1.05);
-}
-#marqueehover a:hover{
-    color: #B12A35;
-    
-}
-
-/*footer end*/
 
 /*Services Section Start*/
+
 #abc {
     color: rgb(9, 138, 181);
 }
- img:hover{
-    transform: scale(1.02);  
+
+img:hover {
+    transform: scale(1.02);
 }
-a:hover{
-    transform: scale(1.03);   
+
+a:hover {
+    transform: scale(1.03);
 }
+
 /*Services Section End*/
 
+
 /* Contact Section Start  */
-#socialhover a:hover{
-    color:   rgb(9, 138, 181);
+
+#socialhover a:hover {
+    color: rgb(9, 138, 181);
     transform: scale(1.5);
     border: none;
 }
 
 /* Contact Section End  */
+
+
+/* Social Page Start */
 
 #btn-outline:hover {
     background-color: rgb(9, 138, 181);
@@ -171,9 +179,42 @@ a:hover{
     height: 315px;
 }
 
+/* Social Page end */
+
+
 /*Privacy Section start*/
-.privacy{
+
+.privacy {
     padding-left: 100px;
     padding-right: 100px;
 }
+
 /*Privacy Section  end*/
+
+
+/*Footer Section start*/
+
+.footer {
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.sociallink {
+    color: rgb(9, 138, 181);
+}
+
+.footerlink {
+    color: rgb(9, 138, 181);
+}
+
+#footer2 a:hover {
+    color: #6dd4e4;
+    transform: scale(1.05);
+}
+
+#marqueehover a:hover {
+    color: #B12A35;
+
+}
+
+/*Footer Section end*/
